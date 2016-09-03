@@ -1,8 +1,9 @@
 [package]
-name = "harfbuzz"
+name = "cairo-backed"
 version = "0.1.0"
 authors = ["critiqjo <john.ch.fr@gmail.com>"]
 
 [dependencies]
-harfbuzz-sys = "0.1"
-libc = "0.2"
+cairo-rs = "0.1"
+freetype-rs = "0.11"
+harfbuzz = { path = "../.." }
